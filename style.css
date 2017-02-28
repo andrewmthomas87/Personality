@@ -47,6 +47,10 @@ section h2 {
 	font-weight: 300;
 }
 
+section p {
+	padding: 0 0.75em;
+}
+
 section p span {
 	color: #c0392b;
 	font-weight: 700;
