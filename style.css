@@ -1,0 +1,83 @@
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	background-color: #eee;
+}
+
+body {
+	color: #444;
+	margin: 0;
+	overflow: hidden;
+}
+
+section {
+	display: none;
+	width: 40em;
+	padding: 0;
+	padding-bottom: 1em;
+	max-width: 90%;
+	margin: 1.5em auto;
+	background-color: #fff;
+	border-radius: 5px;
+	text-align: center;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+}
+
+section.active {
+	display: block;
+}
+
+section h1 {
+	color: #fff;
+	padding: 0.5em 0;
+	margin: 0;
+	margin-bottom: 0.125em;
+	background-color: #2c3e50;
+	font-weight: 700;
+}
+
+section h2 {
+	color: #777;
+	padding: 0.25em 0;
+	margin: 0;
+	font-size: 1.125em;
+	font-weight: 300;
+}
+
+section p span {
+	color: #c0392b;
+	font-weight: 700;
+}
+
+section button {
+	display: block;
+	color: #fff;
+	width: 10em;
+	padding: 0.5em;
+	margin: 0.25em auto;
+	background-color: #2980b9;
+	border: none;
+	border-radius: 5px;
+	outline: none;
+	font-family: inherit;
+	font-size: 1em;
+	font-weight: 300;
+	text-align: center;
+	cursor: pointer;
+}
+
+section div.group {
+	width: 80%;
+	padding-top: 0.25em;
+	margin: 0 auto;
+	font-size: 0.75em;
+}
+
+section div.group button {
+	display: inline-block;
+	width: calc(25% - 0.5em);
+	margin: 0 0.25em;
+}
